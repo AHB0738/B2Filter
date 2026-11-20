@@ -13,7 +13,7 @@ from .core import (
     compute_b2patho_thresholds,
 )
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __all__ = [
     "run", "run_dataframe", "get_genotype_category", "genotype_score",
     "consequence_score", "gtex_score", "biallelic_score",
