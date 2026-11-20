@@ -6,8 +6,8 @@ import pandas as pd
 REQUIRED_COLUMNS = {
     "REF", "ALT", "POSITION", "SYMBOL", "GENOTYPE", "IMPACT",
     "BIALLELIC", "CANONICAL", "Consequence", "gnomADe_AF",
-    "GTEX_testis_RATIO", "SIFT", "PolyPhen", "am_pathogenicity",
-    "SpliceAI_DS", "KNOWN_CANDIDATE_GENE",
+    "GTEX_testis_RATIO", "SIFT", "PolyPhen",
+    "KNOWN_CANDIDATE_GENE",
 }
 
 CATEGORY_ORDER = ["HV-H", "HV-MH", "HET-bH", "HET-bMH", "Kn-bML", "Kn-nb", "CNV"]
